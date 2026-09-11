@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
       submitBtn.disabled = true;
       formMessage.classList.remove('active');
 
-      const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwS7zx6zNI9iNlk1C7nvcQjisOy9-6puAD53hKASP3_tueGNv2tMfCStpkQit9Gz1q6iA/exec';
+      const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzdryD4GYBnKy-qpxAbEql5xD-rdmFvW4QYvxPtSdHuYFHgFJ_vFlQCnm7qfGhBQ_6N/exec';
       const payload = {
         name: name,
         phone: phone,
